@@ -8,8 +8,10 @@ _Unofficial_ Docker image for the [Session](https://getsession.org/) messaging d
 
 ### From Image Registry
 
+```bash
 docker volume create --name=session-data
 docker run -d --name=session -p 5800:5800 -p 5900:5900 -v session-data:/config -v /etc/localtime:/etc/localtime:ro session:latest
+```
 
 ### From Source
 
