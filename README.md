@@ -10,7 +10,7 @@ _Unofficial_ Docker image for the [Session](https://getsession.org/) messaging d
 
 ```bash
 docker volume create --name=session-data
-docker run -d --name=session -p 5800:5800 -p 5900:5900 -v session-data:/config -v /etc/localtime:/etc/localtime:ro session:latest
+docker run -d --name=session -p 5800:5800 -p 5900:5900 -v session-data:/config -v /etc/localtime:/etc/localtime:ro ghcr.io/joedmck/docker-session-gui:main
 ```
 
 ### From Source
