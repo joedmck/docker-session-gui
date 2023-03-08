@@ -1,6 +1,6 @@
 # Session Desktop Application - Docker image
 
-_Unofficial_ Docker image for the [Session](https://getsession.org/) messaging desktop app, using the [jlesage/docker-baseimage-gui](https://github.com/jlesage/docker-baseimage-gui) image. Once deployed, the app can be accessed through a modern web browser or a VNC client. This image is only available for linux/amd64.
+_Unofficial_ Docker image for the [Session](https://getsession.org/) messaging desktop app, using the [jlesage/docker-baseimage-gui](https://github.com/jlesage/docker-baseimage-gui) image. Once deployed, the app can be accessed through a modern web browser or a VNC client.
 
 ## Getting started
 
